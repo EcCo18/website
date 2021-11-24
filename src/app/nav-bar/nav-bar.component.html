@@ -1,0 +1,11 @@
+<ul class="nav nav-pills m-3">
+  <li class="nav-item">
+    <a [routerLink]="['/']" class="nav-link" [ngClass]="currentRoute === '/' ? 'active' : ''" aria-current="page">Start</a>
+  </li>
+  <li class="nav-item">
+    <a [routerLink]="['/contact']" class="nav-link" [ngClass]="currentRoute === '/contact' ? 'active' : ''">Kontakt</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Projekte</a>
+  </li>
+</ul>
