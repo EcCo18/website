@@ -5,6 +5,12 @@
   "projects": {
     "website": {
       "projectType": "application",
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": {
+          "de": "src/locale/messages.de.xlf"
+        }
+      },
       "schematics": {
         "@schematics/angular:component": {
           "style": "scss"

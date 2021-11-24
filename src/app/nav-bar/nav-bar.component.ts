@@ -27,4 +27,7 @@ export class NavBarComponent implements OnInit, OnDestroy {
     }
   }
 
+  isRouteActive(route: string): string {
+    return this.currentRoute === route ? 'active' : '';
+  }
 }
